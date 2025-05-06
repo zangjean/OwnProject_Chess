@@ -1,0 +1,107 @@
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<GridPane gridLinesVisible="true" fx:controller="jean.chess.controller.game.ChessboardController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="50.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+    </rowConstraints>
+    <children>
+        <!-- Ligne 0 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+
+        <!-- Ligne 1 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+
+        <!-- Ligne 2 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+
+        <!-- Ligne 3 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+
+        <!-- Ligne 4 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+
+        <!-- Ligne 5 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+
+        <!-- Ligne 6 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+
+        <!-- Ligne 7 -->
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+        <StackPane styleClass="square" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+    </children>
+</GridPane>

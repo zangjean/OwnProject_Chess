@@ -1,0 +1,83 @@
+package jean.chess.model.game.pieces.pieces_type;
+
+import jean.chess.model.game.pieces.Piece;
+import jean.chess.model.game.pieces.Position;
+
+import java.util.ArrayList;
+
+public class Queen extends Piece {
+
+    public Queen(boolean isWhite, String pieceIconPath, int col, int row) {
+        super(isWhite,pieceIconPath);
+        this.setActual_position(new Position(col,row));
+        this.updatePositionPossibleMoves();
+    }
+
+    @Override
+    public void updatePositionPossibleMoves() {
+        int actual_posX = this.getActualPosition().getPosX();
+        int actual_posY = this.getActualPosition().getPosY();
+        ArrayList<Position> positions_possible_moves = new ArrayList<>();
+
+        //ROOK moves:
+        for(int x = actual_posX ; x <= 7 ; x++){
+            Position position = new Position(x,actual_posY);
+            positions_possible_moves.add(position);
+        }
+        for(int x = actual_posX ; x >= 0 ; x--){
+            Position position = new Position(x,actual_posY);
+            positions_possible_moves.add(position);
+        }
+        for (int y = actual_posY ; y <= 7 ; y++){
+            Position position = new Position(actual_posX,y);
+            positions_possible_moves.add(position);
+        }
+        for (int y = actual_posY ; y >= 0 ; y--){
+            Position position = new Position(actual_posX,y);
+            positions_possible_moves.add(position);
+        }
+
+
+        //BISHOP moves:
+
+        int x = actual_posX;
+        int y = actual_posY;
+        while (x < 7 && y < 7 ){
+            x++;
+            y++;
+            Position position = new Position(x,y);
+            positions_possible_moves.add(position);
+        }
+
+        x = actual_posX;
+        y = actual_posY;
+        while (x > 0 && y > 0 ){
+            x--;
+            y--;
+            Position position = new Position(x,y);
+            positions_possible_moves.add(position);
+        }
+
+        x = actual_posX;
+        y = actual_posY;
+        while (x < 7 && y > 0 ){
+            x++;
+            y--;
+            Position position = new Position(x,y);
+            positions_possible_moves.add(position);
+        }
+
+        x = actual_posX;
+        y = actual_posY;
+        while (x > 0 && y < 7 ){
+            x--;
+            y++;
+            Position position = new Position(x,y);
+            positions_possible_moves.add(position);
+        }
+
+        this.setPositionsPossibleMoves(positions_possible_moves);
+
+
+    }
+}

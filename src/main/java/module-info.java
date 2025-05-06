@@ -10,6 +10,7 @@ module jean.chess {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     // Ouvre tous les packages nécessaires aux fichiers FXML
     opens jean.chess to javafx.fxml;
@@ -23,4 +24,8 @@ module jean.chess {
     exports jean.chess.controller.game;
     exports jean.chess.model.home_page;
     exports jean.chess.model.game;
+    exports jean.chess.utils;
+    exports jean.chess.model.game.pieces.pieces_type;
+    exports jean.chess.model.game.pieces;
+
 }

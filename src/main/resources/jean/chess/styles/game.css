@@ -1,0 +1,124 @@
+/* Appliquer une couleur de fond sombre élégante */
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 20;
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+
+}
+
+.label.labels{
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0;
+}
+
+.radioButton {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-background-color: #3a3a3a;
+    -fx-background-radius: 8;
+    -fx-padding: 10 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 5, 0.5, 0, 1);
+    -fx-transition: all 0.3s;
+}
+.radioButton:hover {
+    -fx-background-color: #5c5c5c;
+}
+.radioButton:pressed {
+    -fx-background-color: #2a2a2a;
+}
+
+
+/* Titre principal */
+.label.title {
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 20 0 40 0;
+    -fx-alignment: center;
+}
+
+.label-with-border {
+    -fx-border-color: blue;  /* Bordure bleue */
+    -fx-border-width: 5;     /* Largeur de la bordure */
+    -fx-border-radius: 5;    /* Coins arrondis */
+
+    -fx-padding: 10 20;      /* Haut / bas = 10px, gauche / droite = 20px */
+
+    -fx-font-size: 24px;     /* Taille de la police */
+    -fx-text-fill: white;    /* Couleur du texte */
+    -fx-font-weight: bold;   /* Texte en gras */
+}
+
+
+
+
+
+
+
+/* Boutons de menu (play, settings, quit...) */
+.button {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-background-color: #3a3a3a;
+    -fx-background-radius: 8;
+    -fx-padding: 10 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 5, 0.5, 0, 1);
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #5c5c5c;
+}
+
+.button:pressed {
+    -fx-background-color: #2a2a2a;
+}
+
+/* Centrage des éléments */
+.center-box {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+
+.square {
+       -fx-border-color: black;    /* Bordures noires */
+       -fx-border-width: 1;        /* Largeur de bordure */
+}
+
+/* Couleur des cases claires */
+.square.white {
+    -fx-background-color: #f0d9b5; /* Beige */
+}
+
+/* Couleur des cases foncées */
+.square.black {
+    -fx-background-color: #b58863; /* Marron foncé */
+}
+
+/* Effet au survol (rose pastel) */
+/* je definit entered comme une pseudoclass personalisé*/
+/* !important permet de surcharger les autres styles */
+/*
+.square:entered{
+    -fx-background-color: #FFD1DC !important;  Rose pastel
+
+}*/
+/* :hover -> gere automatiquement le survol de la souris */
+.square:hover{
+    -fx-background-color: #FFD1DC !important; /* Rose pastel */
+
+}
+
+.square:possible_move{
+    -fx-background-color: #BE8A97 !important; /* Rose pastel */
+
+}
+
+

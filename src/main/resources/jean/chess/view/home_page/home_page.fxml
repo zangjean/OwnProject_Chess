@@ -14,10 +14,10 @@
 >
     <center>
         <VBox alignment="CENTER" spacing="20" styleClass="center-box">
-            <Label text="Chess Game" styleClass="title"/>
-            <Button text="Nouvelle partie" fx:id="nouvelle_partie"/>
+            <Label text="Chess Game" styleClass="title" fx:id="title"/>
+            <Button text="New Game" fx:id="new_game" onAction="#new_game"/>
             <Button text="Options" fx:id="options"/>
-            <Button text="Quitter" fx:id="quitter"/>
+            <Button text="Quit" fx:id="quit" onAction="#quit"/>
         </VBox>
     </center>
 
